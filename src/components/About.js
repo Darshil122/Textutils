@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import Navbar from './Navbar';
 
 export default function About(){
 const [mystyle, setMyStyle] = useState({
@@ -75,9 +76,6 @@ return(
             </div>
         </div>
     </div>
-    {/* <div className="container">
-         <button type='submit' onClick={toggleStyle} className='btn btn-primary my-2'></button> 
-    </div> */}
 </>
 )
 }
